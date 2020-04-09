@@ -10,10 +10,10 @@ let stopwatch = {
         return berhenti
     },
     duration : () => {
-        console.log(`${berhenti - mulai} ms` )
+        console.log(`program berjalan selama ${berhenti - mulai} ms`)
     }
 }
-console.log (stopwatch.start())
+console.log (`program dimulai pada ${stopwatch.start()}`)
 
 // start copy paste dari challenge project
 class Car {
@@ -92,5 +92,7 @@ console.log(coolCar.getColor())
 console.log(coolCar.getPrice())
 // end copy paste dari challenge project
 
-console.log (stopwatch.stop())
+console.log (`program berakhir ${stopwatch.stop()}`)
 stopwatch.duration()
+
+
